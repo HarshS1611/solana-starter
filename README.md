@@ -14,15 +14,6 @@ Mint, add metadata, and transfer a custom SPL token (BCAT) on Solana Devnet.
 
 ---
 
-## Tech Stack
-
-* Solana Devnet
-* TypeScript
-* `@solana/web3.js`
-* `@solana/spl-token`
-
----
-
 ## Project Structure
 
 ```
@@ -41,6 +32,7 @@ ts/cluster1/
 ## How to Run
 
 ```bash
+cd ts
 npm install
 yarn spl_init
 yarn spl_mint
@@ -50,11 +42,8 @@ yarn spl_transfer
 
 ---
 
-## Mint Transaction
+## Transaction Hashs :
 
-**Mint Tx Hash:**
-
-```
 Tx for creating mint account - https://explorer.solana.com/tx/2usMXiqeAAE4Y3omsyP2upxGxe4SaVmb7vdAxFyVRfovyA4UVZKbNMEWfVfufKBEATPjrfF1MZS3EJhA1HrkoMbB?cluster=devnet
 
 Mint address = [HoX9aJ8ZHLeKUJi6rLAj4B7rDUJAn32qWvjRxq8K2Mt2](https://explorer.solana.com/address/HoX9aJ8ZHLeKUJi6rLAj4B7rDUJAn32qWvjRxq8K2Mt2?cluster=devnet)
@@ -66,11 +55,11 @@ Tx for minting tokens - https://explorer.solana.com/tx/3uXaQ7e4366KUdmTQPNAiG9i6
 Tx for adding metadata - https://explorer.solana.com/tx/5NRoCApQi4msCaphJ7dZpp6UdiXApSRcV6XRKyA1UnovYKVZaaN5VqgRqJRaXKha6nfANxc1Wcn1MJeS16EpNAKN?cluster=devnet
 
 Tx for tranfering tokens - https://explorer.solana.com/tx/5jaEfjwBpvvdkDeP8nuogLG6CKf4oqsJExnezWxd6KEwg2xAEMVtmojnYWYFMzghDLiXoALrqVaazrtX7Dyrrgbe?cluster=devnet
-```
+
 
 ---
 
-## Screenshot
+## Screenshots :
 
 ![Buffed Cat Token](image-3.png)
 
