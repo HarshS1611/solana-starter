@@ -13,10 +13,10 @@ const connection = new Connection("https://api.devnet.solana.com", commitment);
 const mint = new PublicKey("HoX9aJ8ZHLeKUJi6rLAj4B7rDUJAn32qWvjRxq8K2Mt2");
 
 // Recipient address
-const to = new PublicKey("C81XCoS1VToRzYYQ35N5Afow5iTRsZmZLrpXdYV61eeZ");
+const to = new PublicKey("Gq1DUrX3zGPcaoiVWNsRk6xzBQAvv1paWaihxDhDHWAf");
 
 // Amount
-const amount = 10_000n * 1_000_000n; // 10,000 tokens
+const amount = 1_000n * 1_000_000n; // 1,000 tokens
 
 (async () => {
     try {
